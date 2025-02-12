@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb1c7070b1486ebc0abdbb46a458f9ad {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb1c7070b1486ebc0abdbb46a458f9ad" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb1c7070b1486ebc0abdbb46a458f9ad = L.map(
+                "map_bb1c7070b1486ebc0abdbb46a458f9ad",
+                {
+                    center: [40.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_174f580a983be2a66dd3453b7c83dce1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_174f580a983be2a66dd3453b7c83dce1.addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var marker_a8ba9607249bc9be1a8b3f553d85840b = L.marker(
+                [54.52, 9.14],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_40681c45c55d2df5edb85e9e27b4c77b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a8ba9607249bc9be1a8b3f553d85840b.setIcon(icon_40681c45c55d2df5edb85e9e27b4c77b);
+        
+    
+        var popup_15fcd6667026e1c0c00874912e3a0b9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbfadcf0caaf180e613b8b8c89db1a0f = $(`<div id="html_fbfadcf0caaf180e613b8b8c89db1a0f" style="width: 100.0%; height: 100.0%;"><b>Schwesing Airbase, Germany</b><br>Six drone sightings in January 2025 over Patriot system training site</div>`)[0];
+                popup_15fcd6667026e1c0c00874912e3a0b9d.setContent(html_fbfadcf0caaf180e613b8b8c89db1a0f);
+            
+        
+
+        marker_a8ba9607249bc9be1a8b3f553d85840b.bindPopup(popup_15fcd6667026e1c0c00874912e3a0b9d)
+        ;
+
+        
+    
+    
+            var marker_e20f8b2da4d39e181b7e07a0d2ade15f = L.marker(
+                [49.4369, 7.6],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_66df86e4323f1acfcc26ca637d543676 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e20f8b2da4d39e181b7e07a0d2ade15f.setIcon(icon_66df86e4323f1acfcc26ca637d543676);
+        
+    
+        var popup_094c11d01d73ad8c4dcf7a40bd21de3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e582f871b32e688352ca0dc75b09d20 = $(`<div id="html_1e582f871b32e688352ca0dc75b09d20" style="width: 100.0%; height: 100.0%;"><b>Ramstein Air Base, Germany</b><br>Multiple unauthorized drones observed; varied in size and configuration</div>`)[0];
+                popup_094c11d01d73ad8c4dcf7a40bd21de3c.setContent(html_1e582f871b32e688352ca0dc75b09d20);
+            
+        
+
+        marker_e20f8b2da4d39e181b7e07a0d2ade15f.bindPopup(popup_094c11d01d73ad8c4dcf7a40bd21de3c)
+        ;
+
+        
+    
+    
+            var marker_afbf724c30a4f855ae4aaec5813fae09 = L.marker(
+                [48.7569, 11.49],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_1739da9073136180797beb22b4038110 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_afbf724c30a4f855ae4aaec5813fae09.setIcon(icon_1739da9073136180797beb22b4038110);
+        
+    
+        var popup_e7b4d1f531bf372dfde76c7eeee4c6ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bb4a06bb656f7d228c038d4d96ed299 = $(`<div id="html_9bb4a06bb656f7d228c038d4d96ed299" style="width: 100.0%; height: 100.0%;"><b>Manching Air Base, Germany</b><br>Up to 10 drones spotted over Eurofighter jet development site</div>`)[0];
+                popup_e7b4d1f531bf372dfde76c7eeee4c6ed.setContent(html_9bb4a06bb656f7d228c038d4d96ed299);
+            
+        
+
+        marker_afbf724c30a4f855ae4aaec5813fae09.bindPopup(popup_e7b4d1f531bf372dfde76c7eeee4c6ed)
+        ;
+
+        
+    
+    
+            var marker_765cd82831fa4d7e3df173cf952511b5 = L.marker(
+                [39.8278, -84.0483],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_b3758f050df790cf5a275ebf46913cd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_765cd82831fa4d7e3df173cf952511b5.setIcon(icon_b3758f050df790cf5a275ebf46913cd0);
+        
+    
+        var popup_6a8129cd1e7957e549443f477aae1493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c37c37e3cc1856e8c23368bc93c8a7a0 = $(`<div id="html_c37c37e3cc1856e8c23368bc93c8a7a0" style="width: 100.0%; height: 100.0%;"><b>Wright-Patterson AFB, Ohio, USA</b><br>Airspace closed due to advanced drones disrupting operations</div>`)[0];
+                popup_6a8129cd1e7957e549443f477aae1493.setContent(html_c37c37e3cc1856e8c23368bc93c8a7a0);
+            
+        
+
+        marker_765cd82831fa4d7e3df173cf952511b5.bindPopup(popup_6a8129cd1e7957e549443f477aae1493)
+        ;
+
+        
+    
+    
+            var marker_6217c60cc5f7655edd9f7959d84de484 = L.marker(
+                [34.7483, -120.5522],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_c2e86d6558aaecdfb57a41442e8279ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6217c60cc5f7655edd9f7959d84de484.setIcon(icon_c2e86d6558aaecdfb57a41442e8279ca);
+        
+    
+        var popup_ca5555968a13751b8472c4c39b4100fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3612a524fb14c766969748c5188353bd = $(`<div id="html_3612a524fb14c766969748c5188353bd" style="width: 100.0%; height: 100.0%;"><b>Vandenberg Space Force Base, California</b><br>Chinese national arrested for flying drone into restricted airspace</div>`)[0];
+                popup_ca5555968a13751b8472c4c39b4100fb.setContent(html_3612a524fb14c766969748c5188353bd);
+            
+        
+
+        marker_6217c60cc5f7655edd9f7959d84de484.bindPopup(popup_ca5555968a13751b8472c4c39b4100fb)
+        ;
+
+        
+    
+    
+            var marker_5a9f188cf56cd71f9d6905566eb5c174 = L.marker(
+                [33.3189, -117.3536],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_cccd1c1eab7896f171db1c96966f8bde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a9f188cf56cd71f9d6905566eb5c174.setIcon(icon_cccd1c1eab7896f171db1c96966f8bde);
+        
+    
+        var popup_91cfca71ad3133abd3dd76196467d05c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c8ad39f2daabb60a7f0fa3a2b78a5d0 = $(`<div id="html_6c8ad39f2daabb60a7f0fa3a2b78a5d0" style="width: 100.0%; height: 100.0%;"><b>Camp Pendleton, California</b><br>Sophisticated drones suspected of surveillance; disrupted operations</div>`)[0];
+                popup_91cfca71ad3133abd3dd76196467d05c.setContent(html_6c8ad39f2daabb60a7f0fa3a2b78a5d0);
+            
+        
+
+        marker_5a9f188cf56cd71f9d6905566eb5c174.bindPopup(popup_91cfca71ad3133abd3dd76196467d05c)
+        ;
+
+        
+    
+    
+            var marker_868d8ddffad2f394274020a0b0998c69 = L.marker(
+                [40.9444, -74.5297],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_064c1fadabde33ab83f9d95b89a789ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_868d8ddffad2f394274020a0b0998c69.setIcon(icon_064c1fadabde33ab83f9d95b89a789ab);
+        
+    
+        var popup_3c5be669ab8142c4bd0ef94440363fe3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f0d45c70162fd0e715327750d50ee0 = $(`<div id="html_b9f0d45c70162fd0e715327750d50ee0" style="width: 100.0%; height: 100.0%;"><b>Picatinny Arsenal, New Jersey</b><br>11 unauthorized drone flights confirmed over military R&D site</div>`)[0];
+                popup_3c5be669ab8142c4bd0ef94440363fe3.setContent(html_b9f0d45c70162fd0e715327750d50ee0);
+            
+        
+
+        marker_868d8ddffad2f394274020a0b0998c69.bindPopup(popup_3c5be669ab8142c4bd0ef94440363fe3)
+        ;
+
+        
+    
+    
+            var marker_7e5ff37cd74ac53cf40ff4f47b7af1e5 = L.marker(
+                [40.2964, -74.0614],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_429832cc1dea0ecdfc3ba960f0886b95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e5ff37cd74ac53cf40ff4f47b7af1e5.setIcon(icon_429832cc1dea0ecdfc3ba960f0886b95);
+        
+    
+        var popup_b8af9e1c905416e4a35a2c226db5766a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a39f94ca14d4ccca3eaa15847db09a6 = $(`<div id="html_5a39f94ca14d4ccca3eaa15847db09a6" style="width: 100.0%; height: 100.0%;"><b>Naval Weapons Station Earle, New Jersey</b><br>Drones observed near ammunition storage; FBI investigation ongoing</div>`)[0];
+                popup_b8af9e1c905416e4a35a2c226db5766a.setContent(html_5a39f94ca14d4ccca3eaa15847db09a6);
+            
+        
+
+        marker_7e5ff37cd74ac53cf40ff4f47b7af1e5.bindPopup(popup_b8af9e1c905416e4a35a2c226db5766a)
+        ;
+
+        
+    
+    
+            var marker_f19240981abfc56a1a9cca2e8193830c = L.marker(
+                [37.0821, -76.3605],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_bfbdb71025208582baadef0f2386d25d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f19240981abfc56a1a9cca2e8193830c.setIcon(icon_bfbdb71025208582baadef0f2386d25d);
+        
+    
+        var popup_87493117edcb2590e0ebb99edd2d61cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53228f4b6447a0ca0af9f32a46a562ed = $(`<div id="html_53228f4b6447a0ca0af9f32a46a562ed" style="width: 100.0%; height: 100.0%;"><b>Langley AFB, Virginia</b><br>Repeated swarm activity near F-22 fighter jet facilities</div>`)[0];
+                popup_87493117edcb2590e0ebb99edd2d61cd.setContent(html_53228f4b6447a0ca0af9f32a46a562ed);
+            
+        
+
+        marker_f19240981abfc56a1a9cca2e8193830c.bindPopup(popup_87493117edcb2590e0ebb99edd2d61cd)
+        ;
+
+        
+    
+    
+            var marker_e1e7b4d68ebc8e9f7966d90e90792cc7 = L.marker(
+                [41.1236, -111.9731],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_6a72d9e65784a45feba1e6f1321c05c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e1e7b4d68ebc8e9f7966d90e90792cc7.setIcon(icon_6a72d9e65784a45feba1e6f1321c05c3);
+        
+    
+        var popup_a23e9da6662cd3bcf1288b4e355585ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f68cc8290effa7d4406ce40a2587baff = $(`<div id="html_f68cc8290effa7d4406ce40a2587baff" style="width: 100.0%; height: 100.0%;"><b>Hill AFB, Utah</b><br>Drones spotted near base; no confirmed overflights</div>`)[0];
+                popup_a23e9da6662cd3bcf1288b4e355585ea.setContent(html_f68cc8290effa7d4406ce40a2587baff);
+            
+        
+
+        marker_e1e7b4d68ebc8e9f7966d90e90792cc7.bindPopup(popup_a23e9da6662cd3bcf1288b4e355585ea)
+        ;
+
+        
+    
+    
+            var marker_6ac07be407689761dd768970a8732bce = L.marker(
+                [52.4098, 0.561],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_3e8718d46c0bc187b58b478b81cfbd6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6ac07be407689761dd768970a8732bce.setIcon(icon_3e8718d46c0bc187b58b478b81cfbd6f);
+        
+    
+        var popup_a3e5de7c5e4a6f43205e29ba704f55a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b989f9b0fbd5c731a476346836f6af1 = $(`<div id="html_0b989f9b0fbd5c731a476346836f6af1" style="width: 100.0%; height: 100.0%;"><b>RAF Lakenheath, UK</b><br>F-15E jets scrambled to investigate drones near nuclear-capable base</div>`)[0];
+                popup_a3e5de7c5e4a6f43205e29ba704f55a4.setContent(html_0b989f9b0fbd5c731a476346836f6af1);
+            
+        
+
+        marker_6ac07be407689761dd768970a8732bce.bindPopup(popup_a3e5de7c5e4a6f43205e29ba704f55a4)
+        ;
+
+        
+    
+    
+            var marker_8e71eefef4328f43175c4078e8416d84 = L.marker(
+                [52.3636, 0.486],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_1638f4a296e8e13e59183f9ea189a273 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8e71eefef4328f43175c4078e8416d84.setIcon(icon_1638f4a296e8e13e59183f9ea189a273);
+        
+    
+        var popup_ed7848c385369fc5e9b7cc388c3737f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1799ea8763404714ff38f008b07995e9 = $(`<div id="html_1799ea8763404714ff38f008b07995e9" style="width: 100.0%; height: 100.0%;"><b>RAF Mildenhall/Feltwell, UK</b><br>Drones monitored by US/UK forces; no operators identified</div>`)[0];
+                popup_ed7848c385369fc5e9b7cc388c3737f7.setContent(html_1799ea8763404714ff38f008b07995e9);
+            
+        
+
+        marker_8e71eefef4328f43175c4078e8416d84.bindPopup(popup_ed7848c385369fc5e9b7cc388c3737f7)
+        ;
+
+        
+    
+    
+            var marker_89b0203089fa104f69b4442df57fcfd4 = L.marker(
+                [51.6833, -1.7833],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_acb8c6eed62f42a1da2747f1cb8dafec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_89b0203089fa104f69b4442df57fcfd4.setIcon(icon_acb8c6eed62f42a1da2747f1cb8dafec);
+        
+    
+        var popup_e2ca9efc5773227aaa52085796a876c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74beea8bf634b6664e371c5d42cf0784 = $(`<div id="html_74beea8bf634b6664e371c5d42cf0784" style="width: 100.0%; height: 100.0%;"><b>RAF Fairford, UK</b><br>Bomber Task Force base targeted; drones disrupted flight operations</div>`)[0];
+                popup_e2ca9efc5773227aaa52085796a876c3.setContent(html_74beea8bf634b6664e371c5d42cf0784);
+            
+        
+
+        marker_89b0203089fa104f69b4442df57fcfd4.bindPopup(popup_e2ca9efc5773227aaa52085796a876c3)
+        ;
+
+        
+    
+    
+            var marker_c3f7acfa08f2f465141d5c0384c76a76 = L.marker(
+                [39.2779, -76.6227],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_0062a243f336e7270d4c4d8ae6b20f53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c3f7acfa08f2f465141d5c0384c76a76.setIcon(icon_0062a243f336e7270d4c4d8ae6b20f53);
+        
+    
+        var popup_471ba1f6de5940cadf6f5dedad630be1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_912c934b233b5733a189f32c4e7019dd = $(`<div id="html_912c934b233b5733a189f32c4e7019dd" style="width: 100.0%; height: 100.0%;"><b>M&T Bank Stadium, Baltimore</b><br>NFL game paused in January 2024 after drone flew near play</div>`)[0];
+                popup_471ba1f6de5940cadf6f5dedad630be1.setContent(html_912c934b233b5733a189f32c4e7019dd);
+            
+        
+
+        marker_c3f7acfa08f2f465141d5c0384c76a76.bindPopup(popup_471ba1f6de5940cadf6f5dedad630be1)
+        ;
+
+        
+    
+    
+            var marker_6e26aff20e1921c5a10242a6f3c41697 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_2d06a8b8a2d91264b4206630ce81b53b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6e26aff20e1921c5a10242a6f3c41697.setIcon(icon_2d06a8b8a2d91264b4206630ce81b53b);
+        
+    
+        var popup_ed9aa89b45a5968c42c4ea1338c2b705 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aadd8184e7413c2ebc6d3a27ee11ccf5 = $(`<div id="html_aadd8184e7413c2ebc6d3a27ee11ccf5" style="width: 100.0%; height: 100.0%;"><b>Paris Olympics 2024</b><br>Canadian soccer teams sanctioned for spying via drones</div>`)[0];
+                popup_ed9aa89b45a5968c42c4ea1338c2b705.setContent(html_aadd8184e7413c2ebc6d3a27ee11ccf5);
+            
+        
+
+        marker_6e26aff20e1921c5a10242a6f3c41697.bindPopup(popup_ed9aa89b45a5968c42c4ea1338c2b705)
+        ;
+
+        
+    
+    
+            var marker_587a716145dcf07f953b82451e4626fb = L.marker(
+                [41.0082, 28.9784],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_676b4803083ebb6590d470733c9907c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_587a716145dcf07f953b82451e4626fb.setIcon(icon_676b4803083ebb6590d470733c9907c2);
+        
+    
+        var popup_f3562de38319e2e5171d49d8a09c8f0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bcc0bf8df9bcb230d3c9b1f1f8841a7 = $(`<div id="html_8bcc0bf8df9bcb230d3c9b1f1f8841a7" style="width: 100.0%; height: 100.0%;"><b>UEFA Champions League Final 2023</b><br>Drone disrupted match; neutralized with counter-drone tech</div>`)[0];
+                popup_f3562de38319e2e5171d49d8a09c8f0b.setContent(html_8bcc0bf8df9bcb230d3c9b1f1f8841a7);
+            
+        
+
+        marker_587a716145dcf07f953b82451e4626fb.bindPopup(popup_f3562de38319e2e5171d49d8a09c8f0b)
+        ;
+
+        
+    
+    
+            var marker_3429bc2df9e88451dfc066eb0300363b = L.marker(
+                [35.6895, 139.6917],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_4a10417f0e06ed138de3a717e470a713 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3429bc2df9e88451dfc066eb0300363b.setIcon(icon_4a10417f0e06ed138de3a717e470a713);
+        
+    
+        var popup_2de5044036683ebdb03f910c4dfc2399 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ef6b6c8eec5f7752e4faba885c8a908 = $(`<div id="html_9ef6b6c8eec5f7752e4faba885c8a908" style="width: 100.0%; height: 100.0%;"><b>Tokyo Olympics 2021</b><br>Unauthorized drones near venues prompted counter-drone measures</div>`)[0];
+                popup_2de5044036683ebdb03f910c4dfc2399.setContent(html_9ef6b6c8eec5f7752e4faba885c8a908);
+            
+        
+
+        marker_3429bc2df9e88451dfc066eb0300363b.bindPopup(popup_2de5044036683ebdb03f910c4dfc2399)
+        ;
+
+        
+    
+    
+            var marker_583dac9c83acc55b326c351e5c026952 = L.marker(
+                [40.7498, -73.8476],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_06b10b3c7d24f88d58402d723a314d57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_583dac9c83acc55b326c351e5c026952.setIcon(icon_06b10b3c7d24f88d58402d723a314d57);
+        
+    
+        var popup_ab9a5951ebeb5e8fa999f08de2ce1c4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5222676127599c86b16abd8aff23e430 = $(`<div id="html_5222676127599c86b16abd8aff23e430" style="width: 100.0%; height: 100.0%;"><b>US Open 2015</b><br>Drone crashed into stadium seating, disrupting play</div>`)[0];
+                popup_ab9a5951ebeb5e8fa999f08de2ce1c4e.setContent(html_5222676127599c86b16abd8aff23e430);
+            
+        
+
+        marker_583dac9c83acc55b326c351e5c026952.bindPopup(popup_ab9a5951ebeb5e8fa999f08de2ce1c4e)
+        ;
+
+        
+    
+    
+            var marker_98d47ee119b2865f4252b5acba9345a3 = L.marker(
+                [37.4033, -121.97],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_c39f320c26acb301fbd0968ffcc66152 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98d47ee119b2865f4252b5acba9345a3.setIcon(icon_c39f320c26acb301fbd0968ffcc66152);
+        
+    
+        var popup_22c080ac75f7323bd3dba216ea576e34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb24748ef60137eeadddd6c7467f676c = $(`<div id="html_eb24748ef60137eeadddd6c7467f676c" style="width: 100.0%; height: 100.0%;"><b>Levi’s Stadium & Oakland Coliseum</b><br>Anti-media leaflets dropped on NFL crowds via drone (2017)</div>`)[0];
+                popup_22c080ac75f7323bd3dba216ea576e34.setContent(html_eb24748ef60137eeadddd6c7467f676c);
+            
+        
+
+        marker_98d47ee119b2865f4252b5acba9345a3.bindPopup(popup_22c080ac75f7323bd3dba216ea576e34)
+        ;
+
+        
+    
+    
+            var marker_e031847770389c4ab78813a816047c22 = L.marker(
+                [56.9236, 23.9711],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_e09d60333a9c7215e17e7f716e8d984c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e031847770389c4ab78813a816047c22.setIcon(icon_e09d60333a9c7215e17e7f716e8d984c);
+        
+    
+        var popup_1433188fef1160ac3e4c35c7b729277c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd88893ed004aad836437853754e2360 = $(`<div id="html_dd88893ed004aad836437853754e2360" style="width: 100.0%; height: 100.0%;"><b>Riga International Airport</b><br>Multiple disruptions in 2023/2025 due to drones in restricted airspace</div>`)[0];
+                popup_1433188fef1160ac3e4c35c7b729277c.setContent(html_dd88893ed004aad836437853754e2360);
+            
+        
+
+        marker_e031847770389c4ab78813a816047c22.bindPopup(popup_1433188fef1160ac3e4c35c7b729277c)
+        ;
+
+        
+    
+    
+            var marker_77f629e3c1b33d9ef79536a7249c5f61 = L.marker(
+                [59.6519, 17.9186],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_592567fd2a561634fc0a7f40636b8765 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77f629e3c1b33d9ef79536a7249c5f61.setIcon(icon_592567fd2a561634fc0a7f40636b8765);
+        
+    
+        var popup_91a9467bf7173c9f23de23f8dc479e0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93f5c8da702aa5c97293fba038b46438 = $(`<div id="html_93f5c8da702aa5c97293fba038b46438" style="width: 100.0%; height: 100.0%;"><b>Stockholm Arlanda Airport</b><br>Flights halted for two hours in September 2024</div>`)[0];
+                popup_91a9467bf7173c9f23de23f8dc479e0d.setContent(html_93f5c8da702aa5c97293fba038b46438);
+            
+        
+
+        marker_77f629e3c1b33d9ef79536a7249c5f61.bindPopup(popup_91a9467bf7173c9f23de23f8dc479e0d)
+        ;
+
+        
+    
+    
+            var marker_e5b555e77305924e5592f1a14f6dc9e4 = L.marker(
+                [50.0379, 8.5622],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_20ff28cb13db61a0439ddd8e7f184c30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e5b555e77305924e5592f1a14f6dc9e4.setIcon(icon_20ff28cb13db61a0439ddd8e7f184c30);
+        
+    
+        var popup_8cc2082d0a706e28311e4fc1a9c27868 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dda8bcada145887abac859578969582b = $(`<div id="html_dda8bcada145887abac859578969582b" style="width: 100.0%; height: 100.0%;"><b>Frankfurt Airport</b><br>Near misses with commercial aircraft in December 2024</div>`)[0];
+                popup_8cc2082d0a706e28311e4fc1a9c27868.setContent(html_dda8bcada145887abac859578969582b);
+            
+        
+
+        marker_e5b555e77305924e5592f1a14f6dc9e4.bindPopup(popup_8cc2082d0a706e28311e4fc1a9c27868)
+        ;
+
+        
+    
+    
+            var marker_4f6536a82b2d22b61e616034ba5a1d18 = L.marker(
+                [53.8895, 9.1372],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_d0a20f39189bfde8394727cf746ad4cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f6536a82b2d22b61e616034ba5a1d18.setIcon(icon_d0a20f39189bfde8394727cf746ad4cd);
+        
+    
+        var popup_a02cff5f57a50e418b677e133dcb9ac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce48fcecf992090f6d0f9c52130d4758 = $(`<div id="html_ce48fcecf992090f6d0f9c52130d4758" style="width: 100.0%; height: 100.0%;"><b>Brunsbüttel Chemical Park</b><br>Suspected espionage via drones over sensitive facilities (Summer 2024)</div>`)[0];
+                popup_a02cff5f57a50e418b677e133dcb9ac4.setContent(html_ce48fcecf992090f6d0f9c52130d4758);
+            
+        
+
+        marker_4f6536a82b2d22b61e616034ba5a1d18.bindPopup(popup_a02cff5f57a50e418b677e133dcb9ac4)
+        ;
+
+        
+    
+    
+            var marker_30ece8df52e2996494ef582bcf637758 = L.marker(
+                [40.0583, -74.4057],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_81086d7796120aeb787a28ff11b281ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_30ece8df52e2996494ef582bcf637758.setIcon(icon_81086d7796120aeb787a28ff11b281ee);
+        
+    
+        var popup_6b0da84d0f9e67c95bd0556d7ee4294e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0616642a68f44e7c8d728db1897c98b0 = $(`<div id="html_0616642a68f44e7c8d728db1897c98b0" style="width: 100.0%; height: 100.0%;"><b>New Jersey Reservoirs & Rail Stations</b><br>Drones spotted over water/energy infrastructure (Late 2024)</div>`)[0];
+                popup_6b0da84d0f9e67c95bd0556d7ee4294e.setContent(html_0616642a68f44e7c8d728db1897c98b0);
+            
+        
+
+        marker_30ece8df52e2996494ef582bcf637758.bindPopup(popup_6b0da84d0f9e67c95bd0556d7ee4294e)
+        ;
+
+        
+    
+    
+            var marker_3a3f0c58e36449d491d41b0691eed03e = L.marker(
+                [44.2473, -76.5711],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_82b3f491f03d9eb35bf988840420f4a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3a3f0c58e36449d491d41b0691eed03e.setIcon(icon_82b3f491f03d9eb35bf988840420f4a9);
+        
+    
+        var popup_ad09510d4ce0c0e7009a289ac0dbf8cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d8440fc8324f06b3e14a4aca92bd052 = $(`<div id="html_1d8440fc8324f06b3e14a4aca92bd052" style="width: 100.0%; height: 100.0%;"><b>Collins Bay Institution, Canada</b><br>Contraband deliveries via drones detected (Early 2023)</div>`)[0];
+                popup_ad09510d4ce0c0e7009a289ac0dbf8cd.setContent(html_1d8440fc8324f06b3e14a4aca92bd052);
+            
+        
+
+        marker_3a3f0c58e36449d491d41b0691eed03e.bindPopup(popup_ad09510d4ce0c0e7009a289ac0dbf8cd)
+        ;
+
+        
+    
+    
+            var marker_ec7fe77a250313d529a5e56becfbd0d4 = L.marker(
+                [33.8361, -81.1637],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_bf40bf3bd2f38d6e1d017ea72e50a346 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec7fe77a250313d529a5e56becfbd0d4.setIcon(icon_bf40bf3bd2f38d6e1d017ea72e50a346);
+        
+    
+        var popup_6704f60f7a3602bfe1b00220f3871b5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f48e4de60c525fde82d87543cb77aa1d = $(`<div id="html_f48e4de60c525fde82d87543cb77aa1d" style="width: 100.0%; height: 100.0%;"><b>South Carolina Prisons</b><br>Drones used for smuggling drugs/weapons (Early 2023)</div>`)[0];
+                popup_6704f60f7a3602bfe1b00220f3871b5f.setContent(html_f48e4de60c525fde82d87543cb77aa1d);
+            
+        
+
+        marker_ec7fe77a250313d529a5e56becfbd0d4.bindPopup(popup_6704f60f7a3602bfe1b00220f3871b5f)
+        ;
+
+        
+    
+    
+            var marker_4d7ba3bea16e5fef392adecbb63930ba = L.marker(
+                [26.1906, -98.1553],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_3db150a26ab24cbaaeae1f533ab1d379 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4d7ba3bea16e5fef392adecbb63930ba.setIcon(icon_3db150a26ab24cbaaeae1f533ab1d379);
+        
+    
+        var popup_efe366005b76051696c451e573d48e60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ee514e684cf36244f5eeee3ac95da91 = $(`<div id="html_1ee514e684cf36244f5eeee3ac95da91" style="width: 100.0%; height: 100.0%;"><b>Rio Grande Valley Sector</b><br>25,000+ cartel-linked drone sightings in one year</div>`)[0];
+                popup_efe366005b76051696c451e573d48e60.setContent(html_1ee514e684cf36244f5eeee3ac95da91);
+            
+        
+
+        marker_4d7ba3bea16e5fef392adecbb63930ba.bindPopup(popup_efe366005b76051696c451e573d48e60)
+        ;
+
+        
+    
+    
+            var marker_e3bec7d19cd6be10b5b3683f196bdc38 = L.marker(
+                [32.1877, 75.0],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_f080350ae8b117e62c0a950ec066122f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e3bec7d19cd6be10b5b3683f196bdc38.setIcon(icon_f080350ae8b117e62c0a950ec066122f);
+        
+    
+        var popup_57cc82b8aaef90c4a3ff99dc0d6f44ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfaf08da8945ce021f36322afde1ab2b = $(`<div id="html_dfaf08da8945ce021f36322afde1ab2b" style="width: 100.0%; height: 100.0%;"><b>India-Pakistan Border</b><br>Arms/narcotics smuggling via drones (2023-2024)</div>`)[0];
+                popup_57cc82b8aaef90c4a3ff99dc0d6f44ec.setContent(html_dfaf08da8945ce021f36322afde1ab2b);
+            
+        
+
+        marker_e3bec7d19cd6be10b5b3683f196bdc38.bindPopup(popup_57cc82b8aaef90c4a3ff99dc0d6f44ec)
+        ;
+
+        
+    
+    
+            var marker_a1ab882e4ff924e760e90b88c4f6a1c3 = L.marker(
+                [41.0, -72.0],
+                {
+}
+            ).addTo(map_bb1c7070b1486ebc0abdbb46a458f9ad);
+        
+    
+            var icon_976aa500d9be5ee8c62b1b80cac5a32b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a1ab882e4ff924e760e90b88c4f6a1c3.setIcon(icon_976aa500d9be5ee8c62b1b80cac5a32b);
+        
+    
+        var popup_9d11ea738d99c5c40460fdf39230a5d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d79d164fb2483c66b1dcca8f7db07ff = $(`<div id="html_6d79d164fb2483c66b1dcca8f7db07ff" style="width: 100.0%; height: 100.0%;"><b>New York & New Jersey</b><br>"Car-sized" drone swarms observed over neighborhoods (Late 2024)</div>`)[0];
+                popup_9d11ea738d99c5c40460fdf39230a5d9.setContent(html_6d79d164fb2483c66b1dcca8f7db07ff);
+            
+        
+
+        marker_a1ab882e4ff924e760e90b88c4f6a1c3.bindPopup(popup_9d11ea738d99c5c40460fdf39230a5d9)
+        ;
+
+        
+    
+</script>
+</html>
